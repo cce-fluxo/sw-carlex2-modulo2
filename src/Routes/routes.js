@@ -11,7 +11,7 @@ export default function Routes(){
     <BrowserRouter>
       <Switch>
       <Route exact path='/gestao' component={Gestao}/>
-      <Route exact path='/gestao/veiculo' component={InfoCar}/>
+      <Route path='/gestao/veiculo' component={InfoCar}/>
       <Route exact path='/gestao/adicionar' component={AddCar}/>
       </Switch>
     </BrowserRouter>

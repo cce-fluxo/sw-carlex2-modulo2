@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
+
 export const BgContainer=styled.div`
-  max-width: 1440px;
+  max-width: 1200px;
   //min-height: 700px;
   margin: 50px auto;
+  margin-right:20px;
   border-radius: 20px;
   padding-top: 10px;
-  //background-color:gray;
+  background-color:gray;
   border: 2px solid black;
   display: flex;
   flex-direction: column;

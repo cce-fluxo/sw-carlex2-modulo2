@@ -6,12 +6,14 @@ import Arrow from '../../Assets/arrow.svg';
 import MainTitle from '../../Components/MainTitle';
 import { Input,InputDiv,InputTitle, DropOptions } from '../../Components/Input/styles';
 import { Button } from '../../Components/Button/styles';
+import { HeaderContainer } from '../Gestao/styles';
 
 export default function AddCar(){
 
   return(
     <>
-    <Header gest={true}/>
+    <HeaderContainer>
+    <Header active={'Gestão'}/>
     <BgContainer>
       <ArrowDiv><Link to='/gestao'><Return src={Arrow} alt='Voltar'/></Link></ArrowDiv>
       <MainTitle>Adicionar Veículo</MainTitle>
@@ -71,7 +73,7 @@ export default function AddCar(){
         
       
     </BgContainer>
-
+    </HeaderContainer>
     </>
 
   )
