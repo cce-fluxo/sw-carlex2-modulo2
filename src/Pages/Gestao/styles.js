@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 export const HeaderContainer=styled.div`
   display:flex;
-  //align-items:center;
+  
   justify-content:space-between;
 `
 export const BgContainer=styled.div`
-  //max-width: 1500px;
+  width: 100%;
   //min-height: 700px;
   margin: 50px auto;
   margin-right:20px;
@@ -81,7 +81,7 @@ export const Card=styled.div`
   height:200px;
   border-radius:30px;
   display:flex;
-  margin-bottom: 30px;
+  margin: 30px;
   align-items:center;
   justify-content: center;
   background-color: black;
@@ -96,8 +96,7 @@ export const CardName=styled.div`
 
 export const CardContainer=styled.div`
   margin-top:50px;
-  width: 80%;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
 `

@@ -122,7 +122,7 @@ export const SideBar = styled.div`
     align-items: center;
     padding-top: 20px;
     resize: horizontal;
-    //position: fixed;
+
 `
 export const LogoImg = styled.img`
     width: ${props => props.diminuir ? "0px" : '140px'};

@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-
+import {Link} from 'react-router-dom';
 
 export const BgContainer=styled.div`
-  max-width: 1200px;
+  width: 100%;
   //min-height: 700px;
   margin: 50px auto;
   margin-right:20px;
@@ -15,12 +15,12 @@ export const BgContainer=styled.div`
   align-items: center;
   padding-bottom: 120px;
   @media(max-width:1400px) {
-    width:90%;
+    //width:90%;
   }
 `
 
 export const InnerContainerBg = styled.div`
-  width: 80%;
+  width: 90%;
   height: 1300px;
   border-radius: 40px;
   margin-top: 20px;
@@ -42,4 +42,9 @@ export const ArrowDiv=styled.div`
   display:flex;
   align-items:flex-start;
   margin-top: 20px;
+`
+
+export const StyledLink=styled(Link)`
+  
+  color:white;
 `

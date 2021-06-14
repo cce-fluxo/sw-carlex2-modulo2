@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 export const Input = styled.input`
     width: 400px;
+  
     margin-bottom: 15px;
     height: 45px;
     border: 1px solid black;
@@ -16,8 +17,12 @@ export const Input = styled.input`
       
     }
     &&::placeholder{
-      //color:white;
+      color:black;
     }   
+    &&:disabled{
+      background-color: white;
+      color: black;
+    }  
     @media(max-width:800px and (min-width:600px)){
     width:200px;
     //color:red;
