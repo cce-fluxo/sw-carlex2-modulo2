@@ -9,6 +9,7 @@ export default createGlobalStyle`
         border: none;
     };
     body{
+        font-family: "Roboto", sans-serif;
         background-color: ${props => props.theme.colors.black};
     }
     ul{

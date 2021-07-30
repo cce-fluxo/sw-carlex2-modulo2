@@ -12,7 +12,9 @@ const theme = {
         text: '#E4E6EB',
         //textArea: '#40444B',
         border: '#40444B',
-        textArea: '#202225'
+        textArea: '#202225',
+        red: "#C64242",
+        green: "#359533"
     },
 };
 export default theme;
